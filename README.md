@@ -11,7 +11,7 @@ This repository contains my complete AI/ML learning journey.
 - ⏳ OOP
 
 ## Coming Soon
-- SQL
+
 - NumPy
 - Pandas
 - Statistics
