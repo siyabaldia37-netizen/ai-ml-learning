@@ -1,8 +1,5 @@
 #  IF Conditon Flow
 
-from regex import E, F
-
-
 a = 19
 b = 12
 if(a>b):
