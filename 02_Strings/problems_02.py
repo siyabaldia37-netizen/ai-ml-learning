@@ -58,4 +58,32 @@ print(str9)
 
 
 
+# medium problems on strings
+
+
+# Print the first five characters of "Programming".
+
+# Print the last four characters of "ComputerScience".
+
+# Count how many times 'a' appears in "banana and mango".
+
+# Check whether "AI" is present in "Learning AI with Python".
+
+# Check whether "Java" is present in "Learning Python".
+
+# Join the list ["Python", "is", "fun"] using spaces.
+
+# Split "red,green,blue,yellow" into a list.
+
+# Repeat "Hello " five times.
+
+# Use an f-string to print your name, age, and favorite programming language.
+
+# Check whether "report.pdf" ends with ".pdf".
+
+# solutions
+
+
+
+
 
