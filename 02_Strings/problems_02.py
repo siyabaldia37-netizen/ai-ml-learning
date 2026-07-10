@@ -23,6 +23,9 @@
 # solutionss
 
 
+from numpy import tile
+
+
 name = "siya baldia"
 print(name)
 
@@ -127,5 +130,82 @@ print(word12.isalpha())
 
 word13  = "siya"
 print(word13.isdigit())
+
+
+# difficult problems on string 
+
+# Ask the user to enter their full name and print:
+# Original name
+# Uppercase
+# Lowercase
+# Length
+
+# Ask the user to enter a sentence and count the number of spaces.
+
+# Ask the user to enter a word and print it in reverse using slicing.
+
+# Ask the user to enter a sentence and check whether it starts with a vowel.
+
+# Count the number of vowels in a user-entered string.
+
+# Ask the user to enter an email address and check whether it ends with "@gmail.com" or ".com".
+
+# Ask the user to enter a sentence and replace every occurrence of "Python" with "AI".
+
+# Ask the user to enter a sentence and print each word on a new line using split().
+
+# Ask the user to enter a sentence and print the longest word in it.
+
+# Build a mini "Profile Formatter" that asks for a user's name, city, and profession, then displays the information in a neatly formatted sentence using an f-string, with the name in title case and the city in uppercase.
+
+
+# solutions 
+
+ask = input("enter your full name:")
+print("oriinal name:" , ask)
+print("uppeercase:" , ask.upper())
+print("lowercase:" , ask.lower())
+print("lenght:" , len(ask))
+
+sentancee = input("enter a sentance:")
+print("number of spaces:" , sentancee.count(""))
+
+sentance1 = input("enter a sentacnce:")
+print("normal:", sentance1)
+
+print(sentance1[::-1])
+
+vowel = input("enter a sentance")
+print(vowel[0].lower() in "aeiou")
+
+string = input("enter the string")
+count = 0
+for ch in string:
+    if ch.lower() in "aeiou":
+        count = count+1
+        print(count)
+
+email = input("enter your email:")
+email1 = email.endswith("@gmail.com" or ".com")
+print(email1)
+
+string1 = input("enter your string")
+string2 = string1.replace("Python" , "AI")
+print(string2)
+
+string3 = input("enter your sentance :")
+string4 = " \n".split(string3)
+print(string4)
+
+love1 = input("enter your name:")
+love2 = love1.title()
+city  = input("enter the name:")
+city1 = city.upper()
+
+print(f"my name is {love2} and i live{city1}")
+
+
+
+
 
 
