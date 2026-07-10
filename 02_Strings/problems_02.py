@@ -83,7 +83,49 @@ print(str9)
 
 # solutions
 
+word = "Programming" 
+print(word[0:4])
 
+word2 = "Computerscience"
+print(word2[-4:])
 
+word3 = "banana and mango"
+print(word3.count("a"))
+
+word4 = "Learning AI with Python"
+print("AI" in word4)
+
+word5 = "Learning python"
+print("Java" in word5)
+
+word6 =["python" , "is" , "love"]
+
+print(" ".join(word6))
+
+word7 = "red,green,yellow,blue"
+print(word7.split(","))
+
+word8 = "Hello"
+print(word8 *5)
+
+love = "Siya"
+old = 19
+fav_language = "Python"
+print(f"MY name is {love} and i am {old} years old and my favorite language is {fav_language}")
+
+word9 = "report.pdf"
+print(word9.endswith(".pdf"))
+
+word10 = "pythons"
+print(word10.startswith("py"))
+
+word11 = "siya1"
+print(word11.isalnum())
+
+word12 = "siya123"
+print(word12.isalpha())
+
+word13  = "siya"
+print(word13.isdigit())
 
 
