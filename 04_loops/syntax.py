@@ -25,6 +25,34 @@ for j in range(1, 10, 3):
 for i in range(4):
     print("Python", i)"""
 
+
+
+"""
 for i in range(4):
     print(i)
 print(i)
+"""
+
+i = 0
+for i in range(10,0,-3):
+    print(i)
+    i+=1
+
+
+for j in range(1,11,2):
+    print(j)
+    j+=1
+print("finished")
+
+for k in range(19):
+    print(k)
+    print(k+1)
+    k+=1
+print("done")
+
+
+print("start")
+for l in range(12):
+    print(l*1)
+    l-=1
+print("ended")
