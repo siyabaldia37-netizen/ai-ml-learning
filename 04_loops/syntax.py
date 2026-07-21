@@ -33,7 +33,7 @@ for i in range(4):
 print(i)
 """
 
-i = 0
+"""i = 0
 for i in range(10,0,-3):
     print(i)
     i+=1
@@ -56,3 +56,27 @@ for l in range(12):
     print(l*1)
     l-=1
 print("ended")
+
+
+for i in range(4):
+    print("*" , end = " ")
+    i+=1"""
+
+# name = "python"
+# for letter in name:
+#     print(len(name))
+    
+# for i in range(len("python")):
+#     print(i)
+
+
+# for ch in "AI":
+#     print(ch)
+
+# name = "Hi"
+# for i in range(len("name")):
+#     print(name[i])
+
+name  = "CAT"
+for i in range(len(name)):
+    print(name[i])
