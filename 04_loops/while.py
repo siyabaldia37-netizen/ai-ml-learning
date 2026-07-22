@@ -98,10 +98,42 @@
 #     print(n*1)
 #     i==1 
 
-num =" "
+# num =" "
 
-while num !=100:
-    num = int(input("enter your number:"))
-print("done")
+# while num !=100:
+#     num = int(input("enter your number:"))
+# print("done")
 
 
+# while True:
+#     age = int(input("enter your age :"))
+#     if age == 19:
+#         print("now enter your name=")
+#         name = input("enter your name:")
+#         if name == "siya":
+#         print("correct details!")
+#         break
+
+
+# while True:
+#     number = int(input("enter a number:"))
+#     if number == 7:
+#         print("Lucky Number Found!")
+#         break
+
+
+
+
+# i = 1
+# while True:
+#     print(i)
+#     i+=1
+#     if i >5:
+#         break
+
+j = 1
+while j<=5:
+    print(j)
+    j+=1
+    if j==3:
+        continue
