@@ -6,7 +6,7 @@ This repository contains my complete AI/ML learning journey.
 - ✅ Basics
 - ✅ Strings
 - ✅ If Else
-- ⏳ Loops
+- ✅ Loops
 - ⏳ Functions
 - ⏳ OOP
 
