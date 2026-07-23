@@ -131,9 +131,97 @@
 #     if i >5:
 #         break
 
-j = 1
-while j<=5:
-    print(j)
-    j+=1
-    if j==3:
-        continue
+# j = 1
+# while j<=5:
+#     if j==3:
+#         j+=1
+#         continue
+#     print(j)
+#     j+=1
+
+# i = 1
+# while i<=10:
+#     if i == 7:
+#         continue
+#     print(i)
+#     i+=1
+
+
+
+# for i in range(1,6):
+#     if i ==2:
+#         continue
+#     print(i)
+
+#     if i == 4:
+#         continue
+#     print('python')
+
+from pickle import TRUE
+
+
+i = 1
+
+# while i <= 5:
+
+#     if i == 4:
+#         i += 1
+#         continue
+
+#     print(i)
+#     i += 1
+
+
+
+# for i in range(1,6):
+#     if i == 5:
+#         continue
+#     print(i)
+
+
+# for ch in "siya":
+#     if ch == "y":
+#         continue
+#     print(ch)
+
+
+# for i in range(1,8):
+#     if i ==4:
+#         continue
+#     print(i)
+#     i+=1
+
+
+# i = 1
+
+# while i<=8:
+#     if i == 5:
+#         i+=1
+#         continue
+#     print(i)
+#     i+=1
+
+
+# num = int(input("enter a umber:"))
+
+# while True:
+#     if num <0:
+#         continue
+#     if num >=0:
+#         print(i)
+#         i==1
+#     if num == 0:
+#         break
+
+#     print(i)
+#     i+=1
+
+
+# for i in range(5):
+#     for j in range(1):
+#         print("*"*i)
+
+for i in range(2):
+    for j in range(3):
+        print("*")
+        

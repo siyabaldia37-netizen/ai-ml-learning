@@ -121,7 +121,7 @@ a8*= 2
 print(a8)
 
 str2 = "Python Programming"
-print(str2 is"AI")
+print(str2 in"AI")
 
 list = [1,2,3,4]
 list1 = [1,2,3,4]
@@ -132,7 +132,7 @@ age = int(input("enter your age:"))
 print("eligible" if age >= 18 and age <= 60 else "not eligible")
 
 password = input("enter your password:")
-print("greater" if len(password) > 8 else "lesser")
+print("greater" if len(password) >= 8 else "lesser")
 
 # # difficult problems
 
@@ -187,13 +187,13 @@ print("positive"  if number > 0  else "negative")
 print("zero " if number == 0 else "wrong input")
 
 character = input("enter your character:")
-print( "vowel "if "aeiou" in character else 'consonent')
+print( character.lower() in "aeiou")
 
 sentance = input("enter your sentance:")
-print("python" in sentance)
+print("python" in sentance.lower())
 
 list2 = [1,2,3,4]
-list3 = [1,2,3,4]
+list3 = list2
 
 print(list2 == list3)
 print(list2 is list3)
@@ -207,7 +207,7 @@ print(len(string1) == len(string2))
 username = input("enter your username:")
 password1 = input("enter your password:")
 
-print("login sucessgull" if username == "admin" and password  == "python123" else 'worng nformation')
+print("login sucessgull" if username == "admin" and password1  == "python123" else 'worng nformation')
 
 num7 = int(input("enter your number:"))
 
