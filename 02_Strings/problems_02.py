@@ -23,7 +23,6 @@
 # solutionss
 
 
-from numpy import tile
 
 
 name = "siya baldia"
@@ -203,8 +202,6 @@ city  = input("enter the name:")
 city1 = city.upper()
 
 print(f"my name is {love2} and i live{city1}")
-
-
 
 
 

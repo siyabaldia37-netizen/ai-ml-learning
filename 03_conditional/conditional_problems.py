@@ -164,13 +164,15 @@ num1 = -23
 
 if num1 < 0:
     absolute_value = -num1
+    print(absolute_value)
 else :
     absolute_value = num1
+    print(absolute_value)
 
 # problem 4 
 
 num2 = 34
-if 1 < num1 < 100 :
+if 1 < num2 < 100 :
     print("in between 1 and 100")
 else :
     print("out of box delivery ")
@@ -178,12 +180,12 @@ else :
 # problem 5 
 
 marks = int(input("enter your marks :"))
-if 90 < marks < 100 :
+if 90 <= marks <= 100 :
     print("grade A")
-elif 75 < marks <89 :
+elif 75 <= marks <=89 :
     print("grade B")
 
-elif 50 < marks < 74:
+elif 50 <= marks <= 74:
     print("grade C ")
 else :
     print("you failed the exam ")
@@ -193,7 +195,10 @@ else :
 username = "admin"
 password1 = "python123"
 
-if username == "admin" and password1 == "python123":
+username1 = input('enter your username ;')
+password2 = input('enter your password:')
+
+if username1 == username and password2 == password1:
     print("both are correct ")
 else :
     print("one is incorrect ")
@@ -241,9 +246,9 @@ else :
 # problem 10
 
 temperatur = int(input("enter your temperautr:"))
-if temperatur < 0:
+if temperatur <= 0:
     print("Freezing")
-elif  0<temperatur < 15 :
+elif  0<temperatur <= 15 :
     print("Cold")
 elif 16<=  temperatur <=30: 
     print("Pleasant")
@@ -354,6 +359,7 @@ print("BMI calculator :")
 weight = int(input("enter your wieght:"))
 height = input("enter your height:")
 
+bmi = (weight) / (height *height )
 if weight == 100:
     if height == 6:
         print("normal")
@@ -372,9 +378,9 @@ else :
 shopping_amount = int(input("enter your shopping amount:"))
 
 if shopping_amount >=  5000:
-    print(shopping_amount * 1.2)
+    print(shopping_amount / 1.2)
 elif 2000 < shopping_amount <=4999:
-    print(shopping_amount * 1.1)
+    print(shopping_amount / 1.1)
 elif 2000> shopping_amount:
     print(shopping_amount)
 else:
@@ -415,7 +421,7 @@ age = int(input("enter your age:"))
 
 if age < 12:
     print("childrens ticket " , price + 12)
-elif 12< age >=59:
+elif 12< age < 60:
     print("adults ticket", price + 59)
 else:
     print("sneior citizen ", price -60)
@@ -427,7 +433,7 @@ subject1= int(input("enter your first subjects marks :"))
 subject2 = int(input("enter your second subjects marks:"))
 subject3= int(input("enter your third subject marks :"))
 
-average = subject1+subject2+subject3 / 3
+average = (subject1+subject2+subject3) / 3
 
 if subject1< 35 or subject2<35 or subject3 < 35:
     print("failed")
@@ -467,7 +473,7 @@ second_value = int(input("enter your second digit:"))
 
 addition = '+' 
 substraction ='-'
-multiplication =  '* '
+multiplication =  '*'
 division =  '/'
 
 choice = input("enter your choice:")
@@ -485,5 +491,5 @@ else :
     print("exit")
 
 
-    
+
 

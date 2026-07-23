@@ -1,8 +1,8 @@
-print("==" * 35)
+print("=" * 35)
 
-print("report card ")
+print(" Student Report Card ")
 
-print("==" * 35)
+print("=" * 35)
 
 student_name = input("enter student name:")
 
@@ -16,35 +16,38 @@ marks_science = int(input("enter your marks in scienece:"))
 
 total  = marks_english + marks_science + marks_maths
 
-percentage = (total * 100)/ 3
+percentage = (total  / 300) * 100
 
-print( "Name \t:",student_name)
+print( f"Name :{student_name}")
 
-print("Roll no \t:",roll_no)
+print(f"Roll no :{roll_no}")
 
-print("English \t:", marks_english)
+print(f"English :{marks_english}")
 
-print("Maths \t:",marks_maths)
+print(f"Maths :{marks_maths}")
 
-print("science \t:",marks_science)
+print(f"science :{marks_science}")
 
-print('Total \t:',total )
+print(f'Total :{total} ')
 
-print( "percentage \t:",percentage)
+print(f"percentage :{percentage}")
 
-if total >= 90:
+if percentage >= 90:
     print( "Grade\t : A+")
-elif 90>total >= 80:
+elif 90>percentage>= 80:
     print("Grade\t : A")
 
-elif 80> total >= 70 :
+elif 80> percentage >= 70 :
     print("Grade\t: B")
-elif 70>total >=60 :
+elif 70>percentage >=60 :
     print("Grade\t: C")
-elif 60> total <=35:
+elif  35<=percentage <60:
     print("Grade\t : D")
 else:
     print("fail")
 
-print(" Result : pass " if total >=35 else "failed")
+print(" Result : pass " if percentage >=35 else "failed")
 
+print("=" * 35)
+print("Thank you !!1")
+print("=" * 35)
